@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieShow</string>
+    <string name="homeScreen">home_screen</string>
+    <string name="discoverScreen">discovery_screen\n</string>
+
+
+    <string name="Trending">Trending</string>
+    <string name="Popular">Popular</string>
+    <string name="TopRated">Top Rated</string>
+    <string name="UpComing">Up coming</string>
+    <string name="NowPlaying">Now Playing</string>
+
+
+    <string name="AiringToday">Airing Today</string>
+    <string name="OnTheAir">On The Air</string>
+    <string name="TVPopular">Popular</string>
+    <string name="TVTopRated">Top Rated</string>
+</resources>
