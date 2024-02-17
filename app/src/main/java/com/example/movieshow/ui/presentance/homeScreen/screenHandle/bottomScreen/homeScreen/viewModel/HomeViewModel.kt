@@ -35,8 +35,8 @@ class HomeViewModel @Inject constructor(
 
     fun onEvent(event: HomeEvent) {
         when (event) {
-            HomeEvent.ActiveSearchBar -> TODO()
-            is HomeEvent.OnQueryChange -> TODO()
+            HomeEvent.ActiveSearchBar -> {}
+            is HomeEvent.OnQueryChange -> {}
             is HomeEvent.Paging -> {
                 when (event.category) {
                     Utils.nowPlaying -> getNowPlaying(true)
@@ -46,7 +46,7 @@ class HomeViewModel @Inject constructor(
                 }
             }
 
-            HomeEvent.PullToRefresh -> TODO()
+            HomeEvent.PullToRefresh -> {}
         }
     }
 
